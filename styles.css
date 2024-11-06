@@ -157,6 +157,22 @@ img {
 /* RWD */
 
 @media screen and (max-width: 768px) {
+  .background-container {
+    height: 100vh;
+  }
+
+  .background {
+    background-attachment: scroll;
+    height: 100%;
+  }
+
+  .title-context {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .title-context h1 {
     font-size: 3rem;
   }
